@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTK-IR-LIB", "RTK-IR-LIB\RTK-IR-LIB.csproj", "{C983AFE7-1A6F-4F2B-A1AF-63D49CC74687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3C114D7A-84B5-432C-B804-3D5CB47F0423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C983AFE7-1A6F-4F2B-A1AF-63D49CC74687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C983AFE7-1A6F-4F2B-A1AF-63D49CC74687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C983AFE7-1A6F-4F2B-A1AF-63D49CC74687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C114D7A-84B5-432C-B804-3D5CB47F0423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C114D7A-84B5-432C-B804-3D5CB47F0423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C114D7A-84B5-432C-B804-3D5CB47F0423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C114D7A-84B5-432C-B804-3D5CB47F0423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
