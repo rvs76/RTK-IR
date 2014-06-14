@@ -24,7 +24,7 @@
                 return false;
             }
 
-            // If parameter cannot be cast to Point return false.
+            // If parameter cannot be cast to DeviceID return false.
             DeviceID id = obj as DeviceID;
             if (id == null)
             {
@@ -43,10 +43,5 @@
         {
             return string.Format("{0:X4}:{1:X4}", this.Vid, this.Pid);
         }
-
-        //public override bool Equals(object object)
-        //{
-        //    return (this.Vid == id.Vid && this.Pid == id.Pid);
-        //}
     }
 }
